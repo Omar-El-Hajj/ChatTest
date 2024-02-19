@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang= "pt-BR">
+<head>
+</head>
+<body>
+<script type='text/javascript' src='https://pottencialseg--potterdev.sandbox.my.site.com/ESWPattiWeb1707415013331/assets/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'pt_BR';
+
+			embeddedservice_bootstrap.init(
+				'00D890000011U8L',
+				'PattiWeb',
+				'https://pottencialseg--potterdev.sandbox.my.site.com/ESWPattiWeb1707415013331',
+				{
+					scrt2URL: 'https://pottencialseg--potterdev.sandbox.my.salesforce-scrt.com',
+					headers: {
+						'origemPreChat': 'Site X'
+					}
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+
+	window.addEventListener('load', function() {
+		initEmbeddedMessaging();
+	});
+</script>
+</body>
+</html>

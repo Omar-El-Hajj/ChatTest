@@ -15,9 +15,7 @@
 				'https://pottencialseg--potterdev.sandbox.my.site.com/ESWPattiWeb1707415013331',
 				{
 					scrt2URL: 'https://pottencialseg--potterdev.sandbox.my.salesforce-scrt.com',
-					headers: {
-						'origemPreChat': 'Site X'
-					}
+					
 				}
 			);
 		} catch (err) {

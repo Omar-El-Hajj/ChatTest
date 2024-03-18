@@ -1,7 +1,4 @@
-<!doctype html>
-<html lang= "pt-BR">
-<head>
-</head>
+<html>
 <body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
